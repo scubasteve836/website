@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Steve Auman</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet"href="CSS.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--Jumbotron Fade Script-->
+  <script> 
+	var jumboHeight = $('.jumbotron').outerHeight();
+	function parallax(){
+		var scrolled = $(window).scrollTop();
+		$('.bg').css('height', (jumboHeight-scrolled) + 'height');
+	}
+	$(window).scroll(function(e){
+    parallax();
+	});
+  </script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!--Nav Bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="mywebsite.html">Home</a>
+	  <a class="navbar-brand" href="contact.php">Contact</a>
+	  <a class="navbar-brand" href="#">Top</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">EXCERCISE</a></li>
+        <li><a href="#goals">COFFEE</a></li>
+        <li><a href="#GLANCE">TECHNOLOGY</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Title/top page-->
+<div class="bg"></div>
+<div class="jumbotron text-center">
+  <h1>Hobbies & Interests</h1>
+  <p class ="lead"></p>
+</div>
+<!--About container-->
+<div id="about" class="container-fluid">
+	<div class="row">
+		<div class ="col-sm-8">
+  <h3>Running and Biking</h3>
+  <h4></h4>
+  <p>I started running in 8th grade as a sprinter, which is rather ironic because after a year of that I quicking got into distance running which led to a career in cross country. I ran all four years at Lake Forest College and now I still try to run whenever it's possible. I also picked up biking because it was something I could do to stay in shape whenever I couldn't run or needed a day off. I ended up loving biking as a hobby which led to me purchasing my first road bike, Cherry Garcia. Aside from these activities I also dabble in volleyball and I try to swim when I can.</p>
+  <!--<button class="btn btn-default btn-lg"> Hobbies </button>-->
+  <!--<button class="btn btn-default btn-lg"> Interests </button>-->
+      <a href="Cherry.png">Cherry Garcia</a>
+  </div>
+	<div class="col-sm-4">
+	<!--<span class ="glyphicon glyphicon-signal logo"></span>-->
+	<img src="running1.jpg" class="img-circle""img-responsive" alt="Cinque Terre" width="350" height="350">
+	</div>
+  </div>
+</div>
+<!--City goals Container-->
+<div id="goals" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <!--<span class="glyphicon glyphicon-globe logo"></span>-->
+	  <img src="coffee1.jpg" class="img-circle""img-responsive" alt="Cinque Terre" width="350" height="350">
+	</div>
+	  <div class="col-sm-8">
+  <h2>Coffee</h2>
+  <h4><strong></strong> </h4>
+  <p> Anyone who knows me a little bit probably knows I'm super into coffee. And not Starbucks. This stems from the brief time I worked as a barista for close to a year at a small town roaster, Branch Street Coffee Roasters. Since then I try to make it a point to find the local roaster of any new area I travel to or live in. Chicago has had no shortages of places to try and I go out of my way to get to those shops on the weekends. My favorite coffee is an Ethiopian roast from the shop I used to work at due to its sweetness and notes of blueberries. My favorite espresso is called The Tri-Force which is served at The Wormhole in Wicker park. Of course these are always subject to change.</p>
+	</div>
+   </div>
+</div>
+<!--EVENTS Container-->
+<div id="GLANCE" class="container-fluid text-center">
+  <h2>Technology</h2>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>Forumns</h4>
+      <p> </p>
+	    <a href="/test/Socialpage.html">
+	  <img src="XdaIcon.png" class="img-circle""img-responsive" alt="Cinque Terre" width="150" height="150">
+		</a>
+	</div>
+    <div class="col-sm-4">
+      <h4>Android</h4>
+      <p></p>
+	   <a href="/test/Gallerypage.html">
+	  <img src="Android.jpg" class="img-circle""img-responsive" alt="Cinque Terre" width="150" height="150">
+	   </a>
+	</div>
+    <div class="col-sm-4">
+      <h4>Pc's</h4>
+      <p></p>
+	  <a href="/test/CalenderEvents.html">
+	  <img src="PC.png" class="img-circle""img-responsive" alt="Cinque Terre" width="150" height="150">
+	  </a>
+	</div>
+  </div>
+  <br><br>
+  <div class="row">
+    
+  </div>
+</div>
+
+</body>
+</html>

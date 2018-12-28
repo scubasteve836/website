@@ -1,0 +1,77 @@
+[07-May-2017 17:53:07 America/Denver] PHP Notice:  Undefined index: submit in /home2/steveaum/public_html/test/contactT.php on line 7
+[07-May-2017 17:56:29 America/Denver] PHP Notice:  Undefined index: submit in /home2/steveaum/public_html/test/contactT.php on line 7
+[07-May-2017 17:56:35 America/Denver] PHP Notice:  Undefined index: submit in /home2/steveaum/public_html/test/contactT.php on line 7
+[07-May-2017 17:56:52 America/Denver] PHP Notice:  Undefined index: submit in /home2/steveaum/public_html/test/contactT.php on line 7
+[07-May-2017 18:05:31 America/Denver] PHP Notice:  Undefined index: submit in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 18:05:40 America/Denver] PHP Notice:  Undefined index: submit in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 18:07:34 America/Denver] PHP Notice:  Undefined index: submit in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 18:16:20 America/Denver] PHP Notice:  Undefined index: submit in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 18:16:32 America/Denver] PHP Notice:  Undefined index: Name in /home2/steveaum/public_html/test/contactT.php on line 8
+[07-May-2017 18:16:32 America/Denver] PHP Notice:  Undefined index: Email in /home2/steveaum/public_html/test/contactT.php on line 9
+[07-May-2017 18:16:32 America/Denver] PHP Notice:  Undefined index: message in /home2/steveaum/public_html/test/contactT.php on line 10
+[07-May-2017 18:17:45 America/Denver] PHP Notice:  Undefined index: Name in /home2/steveaum/public_html/test/contactT.php on line 8
+[07-May-2017 18:17:45 America/Denver] PHP Notice:  Undefined index: Email in /home2/steveaum/public_html/test/contactT.php on line 9
+[07-May-2017 18:17:45 America/Denver] PHP Notice:  Undefined index: message in /home2/steveaum/public_html/test/contactT.php on line 10
+[07-May-2017 18:17:45 America/Denver] PHP Notice:  Undefined index: submit in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 18:27:30 America/Denver] PHP Parse error:  syntax error, unexpected '$mailBody' (T_VARIABLE), expecting ',' or ';' in /home2/steveaum/public_html/test/contactT.php on line 18
+[07-May-2017 18:27:42 America/Denver] PHP Parse error:  syntax error, unexpected '$mailBody' (T_VARIABLE), expecting ',' or ';' in /home2/steveaum/public_html/test/contactT.php on line 18
+[07-May-2017 18:29:00 America/Denver] PHP Notice:  Undefined index: Name in /home2/steveaum/public_html/test/contactT.php on line 8
+[07-May-2017 18:29:00 America/Denver] PHP Notice:  Undefined index: Email in /home2/steveaum/public_html/test/contactT.php on line 9
+[07-May-2017 18:29:00 America/Denver] PHP Notice:  Undefined index: message in /home2/steveaum/public_html/test/contactT.php on line 10
+[07-May-2017 18:29:00 America/Denver] PHP Notice:  Undefined index: submit in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 18:45:18 America/Denver] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:45:22 America/Denver] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:46:57 America/Denver] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:46:59 America/Denver] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:50:02 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:50:02 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:50:02 America/Denver] PHP Notice:  Undefined index: Name in /home2/steveaum/public_html/test/contactT.php on line 9
+[07-May-2017 18:50:02 America/Denver] PHP Notice:  Undefined index: Email in /home2/steveaum/public_html/test/contactT.php on line 10
+[07-May-2017 18:50:02 America/Denver] PHP Notice:  Undefined index: message in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 18:50:13 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:50:13 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:51:29 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:51:29 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:51:38 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:51:38 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:52:28 America/Denver] PHP Parse error:  syntax error, unexpected 'you' (T_STRING), expecting ',' or ';' in /home2/steveaum/public_html/test/contactT.php on line 17
+[07-May-2017 18:52:55 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:52:55 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:52:55 America/Denver] PHP Notice:  Undefined index: Name in /home2/steveaum/public_html/test/contactT.php on line 9
+[07-May-2017 18:52:55 America/Denver] PHP Notice:  Undefined index: Email in /home2/steveaum/public_html/test/contactT.php on line 10
+[07-May-2017 18:52:55 America/Denver] PHP Notice:  Undefined index: message in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 18:53:03 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:53:03 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:53:33 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:53:33 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:53:33 America/Denver] PHP Notice:  Undefined index: Name in /home2/steveaum/public_html/test/contactT.php on line 9
+[07-May-2017 18:53:33 America/Denver] PHP Notice:  Undefined index: Email in /home2/steveaum/public_html/test/contactT.php on line 10
+[07-May-2017 18:53:33 America/Denver] PHP Notice:  Undefined index: message in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 18:53:37 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:53:37 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:53:37 America/Denver] PHP Notice:  Undefined index: Name in /home2/steveaum/public_html/test/contactT.php on line 9
+[07-May-2017 18:53:37 America/Denver] PHP Notice:  Undefined index: Email in /home2/steveaum/public_html/test/contactT.php on line 10
+[07-May-2017 18:53:37 America/Denver] PHP Notice:  Undefined index: message in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 18:53:45 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:53:45 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:54:45 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:54:45 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:54:54 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 18:54:54 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 19:11:02 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 19:11:02 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 19:11:02 America/Denver] PHP Notice:  Undefined index: Name in /home2/steveaum/public_html/test/contactT.php on line 9
+[07-May-2017 19:11:02 America/Denver] PHP Notice:  Undefined index: Email in /home2/steveaum/public_html/test/contactT.php on line 10
+[07-May-2017 19:11:02 America/Denver] PHP Notice:  Undefined index: message in /home2/steveaum/public_html/test/contactT.php on line 11
+[07-May-2017 19:11:34 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[07-May-2017 19:11:34 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[11-Nov-2017 13:17:43 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[11-Nov-2017 13:17:43 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[11-Nov-2017 13:17:43 America/Denver] PHP Notice:  Undefined index: Name in /home2/steveaum/public_html/test/contactT.php on line 9
+[11-Nov-2017 13:17:43 America/Denver] PHP Notice:  Undefined index: Email in /home2/steveaum/public_html/test/contactT.php on line 10
+[11-Nov-2017 13:17:43 America/Denver] PHP Notice:  Undefined index: message in /home2/steveaum/public_html/test/contactT.php on line 11
+[18-Nov-2018 20:27:33 America/Denver] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home2/steveaum/public_html/test/contactT.php on line 6
+[18-Nov-2018 20:27:33 America/Denver] PHP Warning:  Illegal string offset 'submit' in /home2/steveaum/public_html/test/contactT.php on line 6
+[18-Nov-2018 20:27:33 America/Denver] PHP Notice:  Undefined index: Name in /home2/steveaum/public_html/test/contactT.php on line 9
+[18-Nov-2018 20:27:33 America/Denver] PHP Notice:  Undefined index: Email in /home2/steveaum/public_html/test/contactT.php on line 10
+[18-Nov-2018 20:27:33 America/Denver] PHP Notice:  Undefined index: message in /home2/steveaum/public_html/test/contactT.php on line 11
