@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Steve Auman</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet"href="CSS.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--Jumbotron Fade Script-->
+  <script> 
+	var jumboHeight = $('.jumbotron').outerHeight();
+	function parallax(){
+		var scrolled = $(window).scrollTop();
+		$('.bg').css('height', (jumboHeight-scrolled) + 'height');
+	}
+	$(window).scroll(function(e){
+    parallax();
+	});
+  </script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!--Nav Bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="default.html">Home</a>
+	  <a class="navbar-brand" href="contact.php">Contact</a>
+	  <a class="navbar-brand" href="#">Top</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#goals">GOALS</a></li>
+        <li><a href="#GLANCE">SOCIAL</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Title/top page-->
+<div class="bg"></div>
+<div class="jumbotron text-center">
+  <h1>Steve Auman</h1>
+  <p class ="lead"></p>
+</div>
+<!--About container-->
+<div id="about" class="container-fluid">
+	<div class="row">
+		<div class ="col-sm-8">
+  <h3>About Me</h3>
+  <h4></h4>
+  <p>Hello! My name is Steve Auman and I am a Chicago resident and employee in the IT field. Before becoming a Chicagoan I attended Lake Forest College where I majored in Computer Science and my minored in Mathematics. I originally grew up in blue collar Youngstown, Ohio and still have a lot of family there. To learn more about my hobbies and what I do in my spare time, see the button below.</p>
+  <!--<button class="btn btn-default btn-lg"> Hobbies </button>-->
+  <!--<button class="btn btn-default btn-lg"> Interests </button>-->
+  <a href="hobbies.html" class="btn btn-default btn-lg" role="button">Hobbies</a>
+  </div>
+	<div class="col-sm-4">
+	<!--<span class ="glyphicon glyphicon-signal logo"></span>-->
+	<img src="aboutMeC.jpg" class="img-circle""img-responsive" alt="Cinque Terre" width="350" height="350">
+	</div>
+  </div>
+</div>
+<!--City goals Container-->
+<div id="goals" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <!--<span class="glyphicon glyphicon-globe logo"></span>-->
+	  <img src="Computer1.jpg" class="img-circle""img-responsive" alt="Cinque Terre" width="350" height="350">
+	</div>
+	  <div class="col-sm-8">
+  <h2>Career Goals</h2>
+  <h4><strong></strong> </h4>
+  <p>Throughout my career I've had internships and jobs ranging from IT support to Software development. I am currently employed at Trading Technologies in downtown Chicago as an Associate Software Developer. Clicking the button below will give you an up close look at my expierience. </p>
+  <a href="experience.html" class="btn btn-default btn-lg" role="button">Experience</a>
+	</div>
+   </div>
+</div>
+<!--EVENTS Container-->
+<div id="GLANCE" class="container-fluid text-center">
+  <h2>Steve on Social Media</h2>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>Twitter</h4>
+      <p> Thoughts and Ideas</p>
+	    <a href="https://twitter.com/Scuba_Steve836">
+	  <img src="twitter.png" class="img-circle""img-responsive" alt="Cinque Terre" width="150" height="150">
+		</a>
+	</div>
+    <div class="col-sm-4">
+      <h4>LinkedIn</h4>
+      <p>My Professional Account.</p>
+	   <a href="https://www.linkedin.com/in/steven-auman-9798b887">
+	  <img src="LinkedIn.png" class="img-circle""img-responsive" alt="Cinque Terre" width="150" height="150">
+	   </a>
+	</div>
+    <div class="col-sm-4">
+      <h4>Instagram</h4>
+      <p> My attempt at Photography</p>
+	  <a href="https://www.instagram.com/scubasteve836/">
+	  <img src="Instagram.jpg" class="img-circle""img-responsive" alt="Cinque Terre" width="150" height="150">
+	  </a>
+	</div>
+  </div>
+  <br><br>
+  <div class="row">
+    
+  </div>
+</div>
+
+</body>
+</html>

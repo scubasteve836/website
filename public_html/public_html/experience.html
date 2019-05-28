@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Experience</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet"href="CSS.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--Jumbotron Fade Script-->
+  <script> 
+	var jumboHeight = $('.jumbotron').outerHeight();
+	function parallax(){
+		var scrolled = $(window).scrollTop();
+		$('.bg').css('height', (jumboHeight-scrolled) + 'height');
+	}
+	$(window).scroll(function(e){
+    parallax();
+	});
+  </script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!--Nav Bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="default.html">Home</a>
+	  <a class="navbar-brand" href="contact.php">Contact</a>
+	  <a class="navbar-brand" href="#">Top</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#current">CURRENT</a></li>
+        <li><a href="#sta">STA</a></li>
+        <li><a href="#TT">TT</a></li>
+        <li><a href="#about">JEXET</a></li>
+        <li><a href="#goals">WEIMAN</a></li>
+        <li><a href="#GLANCE">TTECH</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Title/top page-->
+<div class="bg"></div>
+<div class="jumbotron text-center">
+  <h1>Experience</h1>
+  <p class ="lead"></p>
+</div>
+<!--Current-->>
+<div id="current" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <!--<span class="glyphicon glyphicon-globe logo"></span>-->
+    <img src="tradingt.png" class="img-circle""img-responsive" alt="Cinque Terre" width="350" height="350">
+  </div>
+    <div class="col-sm-8">
+  <h2>Trading Technologies</h2>
+  <h4><strong></strong> </h4>
+  <p> I am currently employed at Trading Technologies as an Associate Software Developer. I'm currently working with software such as Servicenow, Jira and Salesforce in order to cater them to work better for our emplployees.</p>
+
+  </div>
+   </div>
+</div>
+
+
+<!--STA-->
+<div id="sta" class="container-fluid bg-grey">
+  <div class="row">
+    <div class ="col-sm-8">
+  <h3>STA Group</h3>
+  <h4></h4>
+  <p> As a Systems Administor at STA Group I worked on small day to day issues as well as maintaining and implementing new servers/software. While I only worked here briefly I learned valuble skills in networking and support.</p>
+  <!--<button class="btn btn-default btn-lg"> Hobbies </button>-->
+  <!--<button class="btn btn-default btn-lg"> Interests </button>-->
+  <!--<a href="hobbies.html" class="btn btn-default btn-lg" role="button">Hobbies</a>-->
+  </div>
+  <div class="col-sm-4">
+  <!--<span class ="glyphicon glyphicon-signal logo"></span>-->
+  <img src="stagroup.jpg" class="img-circle""img-responsive" alt="Cinque Terre" width="350" height="350">
+  </div>
+  </div>
+</div>
+<!--About container-->
+<div id="TT" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <!--<span class="glyphicon glyphicon-globe logo"></span>-->
+	  <img src="tradingt.png" class="img-circle""img-responsive" alt="Cinque Terre" width="350" height="350">
+	</div>
+	  <div class="col-sm-8">
+  <h2>Trading Technologies</h2>
+  <h4><strong></strong> </h4>
+  <p> In the IT Support role I worked on anything from simple computer troubleshooting issues to bigger things such as implemting new software and assisting in hardware installs at different data centers. I also automated a few processes by creating powershell programs, virtualized multipurpose computers and managed many virtual machines in VMware and Nutanix.</p>
+
+	</div>
+   </div>
+</div>
+<div id="about" class="container-fluid">
+	<div class="row">
+		<div class ="col-sm-8">
+  <h3>Jexet Technologies LLC</h3>
+  <h4></h4>
+  <p> As an Intern for Jexet I assisted with the receiving and solving of many helpdesk tickets. I also took it upon myself to impove the company's organization by updating much of their documentation. This internship has also really helped me learn how a managed service provider works in the buisness world.</p>
+  <!--<button class="btn btn-default btn-lg"> Hobbies </button>-->
+  <!--<button class="btn btn-default btn-lg"> Interests </button>-->
+  <!--<a href="hobbies.html" class="btn btn-default btn-lg" role="button">Hobbies</a>-->
+  </div>
+	<div class="col-sm-4">
+	<!--<span class ="glyphicon glyphicon-signal logo"></span>-->
+	<img src="Jexet.png" class="img-circle""img-responsive" alt="Cinque Terre" width="350" height="350">
+	</div>
+  </div>
+</div>
+<!--job-->
+<div id="goals" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <!--<span class="glyphicon glyphicon-globe logo"></span>-->
+	  <img src="Weiman.jpg" class="img-circle""img-responsive" alt="Cinque Terre" width="350" height="350">
+	</div>
+	  <div class="col-sm-8">
+  <h2>Weiman Products LLC</h2>
+  <h4><strong></strong> </h4>
+  <p> As an intern for the IT department I gained first experience as to what this department does. During my time here I managed a contract for our printers, learned the necessities to keep a secure network, and completed projects to better the company. A couple major projects I completed were rewiring one of our server rooms and completing a map of our network infrastructure. </p>
+
+	</div>
+   </div>
+</div>
+<!-- Container-->
+<div id="GLANCE" class="container-fluid text-center">
+  <h2>Turning Technologies</h2>
+  <br>
+  <div class="row">
+		<div class ="col-sm-8">
+  <h3></h3>
+  <h4></h4>
+  <p>As an intern for Turning Technologies I tested software currently being developed for a new release. This involved working as a team to complete an excel spreadsheet full of different tests, communicating with developers to detect/fix bugs, and retesting to assure things have been fixed.</p>
+  <!--<button class="btn btn-default btn-lg"> Hobbies </button>-->
+  <!--<button class="btn btn-default btn-lg"> Interests </button>-->
+  <!--<a href="hobbies.html" class="btn btn-default btn-lg" role="button">Hobbies</a>-->
+  </div>
+	<div class="col-sm-4">
+	<!--<span class ="glyphicon glyphicon-signal logo"></span>-->
+	<img src="ttech.png" class="img-circle""img-responsive" alt="Cinque Terre" width="350" height="350">
+	</div>
+  </div>
+  </div>
+  <br><br>
+  <div class="row">
+    
+  </div>
+</div>
+
+</body>
+</html>
